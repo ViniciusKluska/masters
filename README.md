@@ -31,7 +31,7 @@ This repository serves as a comprehensive record of my academic activities and r
   - Seminar and conference materials
 
 - **resources/**: 
-  - Reading materials
+  - Reading materials5 
   - Useful links
   - Reference documents
 

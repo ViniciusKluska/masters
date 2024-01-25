@@ -1,0 +1,19 @@
+Capítulo 1 - Probabilidade
+
+    1.1 Conceito
+    1.2 Probabilidade subjetiva
+    1.3 Probabilidade dos conectores "e" "ou"
+    1.4 Probabilidade condicional
+    1.5 Regra de Bayes
+
+A revisão de capítulo determinou conceitou chaves:
+
+    Conceito de Probabildiade: P(A) = (n (a))/N
+
+    Probabilidade subjetiva: probabilidaes de eventos que dependentes de outros
+
+    Probalidade dos conectores:
+
+        "e"     -> Multiplicar as probabilidades dos eventos
+        "ou"    -> Somar as probabilidades dos eventos
+    

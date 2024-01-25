@@ -1,0 +1,49 @@
+Basic notation
+
+Statements: A, B, C, . . .
+
+    True/False: all statements are either true or false.
+
+Negation: ¬A 
+    ‘not A’     -> Ac = {x ∈ X : x ∉ A}
+
+Conjunction: A ∧ B 
+    ‘A and B’   -> A ∩ B
+
+Disjunction: A ∨ B 
+    ‘A or B’    -> A U B
+
+Implication: A ⇒ B 
+    ‘A implies B’
+        -> A is defined as hypothesis or antecedent
+        -> B is defined as conclusion.
+            A is sufficient condition for B; B is necessary condition for A.
+
+Equivalence: A ⇔ B 
+    ‘A if and only if B’ (A iff B, for short)
+            A is necessary and sufficient for B; B is necessary and sufficient for A.
+
+Example 1 (¬A) ∧ A ⇔ FALSE.
+    (¬(A ∨ B)) ⇔ ((¬A) ∧ (¬B)) De Morgan rule.
+
+Quantifiers
+
+Existential: ∃ 
+    ‘There exists’ or ‘There is’
+
+Universal: ∀ 
+    ‘For all’ or ‘For every’
+
+Uniqueness: ∃!
+    ‘There exists a unique ...’ or ‘There is a unique...’
+
+The colon : and the vertical line |
+    ‘such that’
+
+a ∈ S
+    ‘a is an element of (belongs to) set S’
+
+Example 2 (Definition of continuity)
+f is continuous at x if
+
+(∀ > 0)(∃δ > 0) : (∀y ∈ |y − x| < δ ⇒ |f(y) − f(x)| < )

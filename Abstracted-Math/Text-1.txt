@@ -1,0 +1,93 @@
+Lógica
+
+Lógica def -> Estudo de raciocínio puro ou o estudo de princípios válidos para fazer inferência e desenho para chegar a alguma conclusão
+
+    Lógica:
+        -> Proposicional 
+        -> Predicados
+
+Lógica Proposicional -> estudo de várias palavras simples como "e" ; "ou" ; "não"
+
+Notação -> P ; Q ; R 
+    Comunmente usadas como Variáveis Proposicionais
+    Variáveis Proposicionais -> Statementes
+
+Conectivos -> Ab-math--Glossary 
+              
+        Conjunction: P ∧ Q  (Conjuntor)
+        Disjunction: P ∨ Q  (Disjuntor)
+        Negation: ¬P ou ~P  (Negação)
+        Implication: P ⇒ Q  (Condicional ou implicação)
+        Equivalence: A ⇔ B  (Bicondicional ou equivalente)
+
+Truth Table
+
+Conjunction
+        P Q : P ∧ Q
+        T T :   T
+        T F :   F
+        F T :   F
+        F F :   F
+
+Disjunction
+        P Q : P V Q
+        T T :   T
+        T F :   T
+        F T :   T
+        F F :   F
+
+Negation
+        P : ~P
+        T :  F
+        F :  T
+
+Implication
+        P Q : P ⇒ Q
+
+        T T :   T
+        T F :   F
+        F T :   T
+        F F :   T
+
+Equivalence:
+        P Q : P ⇔ Q
+        T T :   T
+        T F :   F
+        F T :   F
+        F F :   T
+
+Conceitos utéis
+    Tautologia -> resultado da tabela de versdade saõ todos verdadeiras (T)
+    Contradição -> resultado da tabela de verdade são todos falsos (F)
+    Proposicionalmente equivalente -> apresenta uma tautologia quandodo conectivo ⇔ é colocado entre as sentenças
+        P = Q
+
+Exemplos
+
+Tautologia: P ⇒ P
+    É verdadeiro mas não acrescenta qualquer informação.
+
+Contradição: É representado pela sentença: P ∧ ¬P
+    Todas as respostas negativas
+
+Proposicionalmente equivalente: ~P ⇒ Q e P V Q
+
+        ~P Q : ~P ⇒ Q
+         T T :    T
+         T F :    T
+         F T :    T
+         F F :    F
+
+Exemplo realmente difícil: P ⇒ (Q ∧ ¬Q) é equivalente a sentença ~P
+
+        P ¬ P : (P ∧ ¬P)
+        T   F :    F
+        T   F :    F
+        F   T :    F
+        F   T :    F
+
+P Q ¬Q : (Q ∧ ¬Q) : P ⇒ (Q ∧ ¬Q)
+T T  F :    F     :         F
+T F  T :    F     :         F
+F T  F :    F     :         V
+F F  T :    F     :         V

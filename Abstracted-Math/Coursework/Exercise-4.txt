@@ -1,0 +1,7 @@
+4 - Provar usando o método da prova direta a proposição abaixo:
+
+Proposição: Se x e y são números reais positivos, então 2√xy ≤ x + y
+
+Hipótese: é dado que x>0 e y>0
+
+Demonstração: Elevando ambos os lados da desigualdade ao quadrado

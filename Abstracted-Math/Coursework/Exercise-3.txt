@@ -1,0 +1,20 @@
+3 - Provar usando o método da prova direta a proposição abaixo:
+
+Proposição: Se x é inteiro par, então (x^2) − 6x +5 é ímpar.
+
+Hipótese: foi dado que x é inteiro par e pode ser escrito como x=2k sendo "k" um inteiro qualquer
+
+Demonstração: substituir x (inteiro par: x=2k) em (x^2) - 6x +5 e verificar se é ímpar (pode-se escrever um número ímpar como um x=2k+1).
+
+--->    (2k)^2 - 6(2k) + 5
+        4(k^2) - 12k + 5
+
+verificar se não pode ser escrita como um número ímpar
+--->    2(2(k^2)-6k) + 5
+        2(k^2-6k) é claramente um número inteiro, pois k é um número inteiro.
+        podemos reescrever 2(k^2-6k) como 2(m), sendo m um número inteiro
+        com isso temos, 2m + 5.
+        2m resulta em um número par, dado que todo número inteiro multiplacado por dois resulta em um número par.
+        adicionar 5 a um número par sempre resulta em um número ímpar.
+
+        Conclusão: demonstrou-se que dado x ser um número inteiro par, x^2 - 6x + 5 é ímpar.
